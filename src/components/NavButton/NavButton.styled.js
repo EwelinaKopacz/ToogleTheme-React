@@ -24,7 +24,7 @@ const StyledButton = styled.button `
         bottom: -3.5%;
         width: 100%;
         border-bottom: 2px solid #713E5A;
-        transform-origin: 0% 0%;
+        transform-origin: 50% 50%;
         transform: scaleX(0);
         transition: 0.5s;
     }
