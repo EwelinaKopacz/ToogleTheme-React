@@ -16,7 +16,7 @@ const App =() => {
   return (
     <>
       <ResetStyle/>
-      <ThemeProvider theme={theme ==='dark' ? darkTheme : lightTheme}>
+      <ThemeProvider theme={theme ==='light' ? lightTheme : darkTheme}>
       <AppWrapper>
         <Menu/>
         <Mode onClick={handleTheme}/>
