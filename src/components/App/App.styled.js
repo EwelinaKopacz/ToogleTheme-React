@@ -5,6 +5,7 @@ const AppWrapper = styled.section`
     justify-content: space-evenly;
     align-items: flex-start;
     flex-wrap: wrap;
+    gap:1rem;
     min-height: 100vh;
     padding-top: 150px;
     background-color: ${(props)=>props.theme.bgColor};
